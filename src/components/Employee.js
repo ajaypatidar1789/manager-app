@@ -69,7 +69,7 @@ const Employee = ({ employee }) => {
         {/* Modal */}
         <Modal show={show} onHide={handleClose}>
           <Modal.Header className="modal-header" closeButton>
-            <Modal.Title>Update Employee</Modal.Title>
+            <Modal.Title>Update User</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <EditForm employeeID={employeeID} />

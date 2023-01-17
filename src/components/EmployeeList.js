@@ -46,7 +46,7 @@ const EmployeeList = () => {
         <div className="row">
           <div className="col-sm-6">
             <h2>
-              Manage <b>Employees</b>
+              Manage <b>User</b>
             </h2>
           </div>
           <div className="col-sm-6">
@@ -56,13 +56,13 @@ const EmployeeList = () => {
                 data-toggle="modal"
               >
                 <i className="material-icons">&#xE147;</i>{" "}
-                <span>Add New Employee</span>
+                <span>Add New User</span>
               </Button>
           </div>
         </div>
       </div>
       <Alert variant="success" show={showAlert}>
-        EmployeList successfully updated!
+        UserList successfully updated!
       </Alert>
       <table className="table table-striped table-hover w-100">
         <thead>
@@ -92,7 +92,7 @@ const EmployeeList = () => {
       {/* Modal */}
       <Modal show={show} onHide={handleClose}>
         <Modal.Header className="modal-header" closeButton>
-          <Modal.Title>Add New Employee</Modal.Title>
+          <Modal.Title>Add New User</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <AddForm />

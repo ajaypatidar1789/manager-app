@@ -31,7 +31,7 @@ const EditForm = (props) => {
   return (
     <Form onSubmit={handleSubmit}>
       <Form.Group className="my-2">
-        <Form.Label>Employee Name</Form.Label>
+        <Form.Label>User Name</Form.Label>
         <Form.Control
           type="text"
           placeholder="enter employee name"
@@ -42,7 +42,7 @@ const EditForm = (props) => {
       </Form.Group>
 
       <Form.Group className="my-2">
-        <Form.Label>Email email</Form.Label>
+        <Form.Label>User Email</Form.Label>
         <Form.Control
           type="email"
           placeholder="enter employee email"
@@ -53,7 +53,7 @@ const EditForm = (props) => {
       </Form.Group>
 
       <Form.Group className="my-2">
-        <Form.Label>Employee address</Form.Label>
+        <Form.Label>User address</Form.Label>
         <Form.Control
           as="textarea"
           placeholder="enter employee address"
@@ -64,7 +64,7 @@ const EditForm = (props) => {
       </Form.Group>
 
       <Form.Group className="my-2">
-        <Form.Label>Employee Phone</Form.Label>
+        <Form.Label>User Phone</Form.Label>
         <Form.Control
           type="text"
           placeholder="Enter employee phone number"
@@ -76,7 +76,7 @@ const EditForm = (props) => {
 
       <Form.Group className="mt-2">
         <Button variant="warning" type="submit" className="w-100">
-          Update Employee
+          Update User
         </Button>
       </Form.Group>
     </Form>

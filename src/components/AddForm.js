@@ -21,10 +21,10 @@ const AddForm = () => {
   return (
     <Form onSubmit={handleSubmit}>
       <Form.Group className="my-2">
-        <Form.Label>Employee Name</Form.Label>
+        <Form.Label>User Name</Form.Label>
         <Form.Control
           type="text"
-          placeholder="enter employee name"
+          placeholder="enter user name"
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
@@ -32,10 +32,10 @@ const AddForm = () => {
       </Form.Group>
 
       <Form.Group className="my-2">
-        <Form.Label>Email email</Form.Label>
+        <Form.Label>User Email</Form.Label>
         <Form.Control
           type="email"
-          placeholder="enter employee email"
+          placeholder="enter user email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
@@ -43,10 +43,10 @@ const AddForm = () => {
       </Form.Group>
 
       <Form.Group className="my-2">
-        <Form.Label>Employee address</Form.Label>
+        <Form.Label>User address</Form.Label>
         <Form.Control
           as="textarea"
-          placeholder="enter employee address"
+          placeholder="enter user address"
           rows={3}
           value={address}
           onChange={(e) => setAddress(e.target.value)}
@@ -54,10 +54,10 @@ const AddForm = () => {
       </Form.Group>
 
       <Form.Group className="my-2">
-        <Form.Label>Employee Phone</Form.Label>
+        <Form.Label>User Phone</Form.Label>
         <Form.Control
           type="text"
-          placeholder="Enter employee phone number"
+          placeholder="Enter user phone number"
           required
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
@@ -66,7 +66,7 @@ const AddForm = () => {
 
       <Form.Group className="mt-2">
         <Button variant="success" type="submit" className="w-100">
-          Add New Employee
+          Add New User
         </Button>
       </Form.Group>
     </Form>
